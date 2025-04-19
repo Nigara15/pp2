@@ -3,9 +3,9 @@ import csv
 1
 def connect():
     return psycopg2.connect(
-        dbname="supplier",  # Название твоей базы
-        user="postgres",        # Имя пользователя
-        password="Nigara2006",# Твой пароль
+        dbname="supplier",
+        user="postgres",       
+        password="Nigara2006",
         host="localhost",
         port="5432"
     )
